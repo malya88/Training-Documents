@@ -22,7 +22,7 @@ sudo hostnamectl set-hostname "kmaster-node"
 exec bash
 
 sudo vi /etc/hosts
-172.31.44.46 kmaster-node
+172.31.43.132 kmaster-node
 #Remember to replace the IPs with those of your systems.
 
 #And only the worker node:
@@ -31,12 +31,12 @@ sudo hostnamectl set-hostname "worker-node1"
 exec bash
 
 sudo vi /etc/hosts
-172.31.35.106 worker-node1
+172.31.43.90 worker-node1
 #Remember to replace the IPs with those of your systems.
 
 sudo hostnamectl set-hostname "worker-node2"
 exec bash
-172.31.46.223 worker-node2
+172.31.34.174 worker-node2
 
 #Install Docker ::
 
